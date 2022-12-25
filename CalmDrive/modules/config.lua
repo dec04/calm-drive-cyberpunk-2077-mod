@@ -6,7 +6,7 @@ function config.fileExists(filename)
 end
 
 function config.tryCreateConfig(path, data)
-	if not config.fileExists(path) then
+    if not config.fileExists(path) then
         local file = io.open(path, "w")
         local jconfig = json.encode(data)
         file:write(jconfig)

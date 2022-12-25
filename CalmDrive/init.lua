@@ -6,7 +6,7 @@ CalmDrive = {
     description = "Calm drive by Dec04",
     version = "0.0.1",
     strings = {
-        configLocation = "config/config.json"
+        configLocation = "config.json"
     },
     runtimeData = {
         inGame = false,
